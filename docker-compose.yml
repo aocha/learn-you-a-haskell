@@ -1,0 +1,8 @@
+version: "3"
+services:
+  haskell:
+    build: .
+    container_name: haskell
+    tty: true
+    volumes:
+      - .:/opt/haskell
